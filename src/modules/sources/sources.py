@@ -10,8 +10,13 @@ pd.set_option('display.max_rows', None)
 
 # Load the data
 df = pd.read_excel('resources/data/bitcoin_day.xlsx')
+
+# Transform
 df.columns = ['date','open','high','low','close','volumn','marketCap']
 df['date'] = pd.to_datetime(df['date'])
+df['log_close'] = np.log(df.close)
+df['log_high'] = np.log(df.high)
+df['log_low'] = np.log(df.low)
 
 # Plot the data
 sns.lineplot(y='close',x='date',data=df)
