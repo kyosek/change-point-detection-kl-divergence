@@ -1,7 +1,7 @@
 # Change Point Detection - KL Divergence
 
 
-When we build a machine learning model, we validate and test its accuracies/performance in various ways. Although the accuracy is quite high in the test set, the prediction will eventually drift by time. This is often caused by the future data "drift" to a different state from the training dataset. But how can we detect this drift effectively? This blogpost shows using direct ratio estimation to detect the change point with Bitcoin daily price data. This project is documented in my [medium blog]() and Bitcoin price data are from [CoinMarketCap](https://coinmarketcap.com/currencies/bitcoin/historical-data/?start=20130429&end=20200302)
+When we build a machine learning model, we validate and test its accuracies/performance in various ways. Although the accuracy is quite high in the test set, the prediction will eventually drift by time. This is often caused by the future data "drift" to a different state from the training dataset. But how can we detect this drift effectively? This blogpost shows using direct ratio estimation to detect the change point with Bitcoin daily price data. This project is documented in my [medium blog](https://towardsdatascience.com/is-your-machine-learning-model-still-predicting-accurately-177f2d353153?source=email-e98eeeb527fd-1587850173770-layerCake.autoLayerCakeWriterNotification-------------------------e6e9c66c_e819_4002_b883_0390175cd6e0&sk=a9c988a2fa8ab69b962b31206188549e) and Bitcoin price data are from [CoinMarketCap](https://coinmarketcap.com/currencies/bitcoin/historical-data/?start=20130429&end=20200302)
 
 ## Table of contents
 - [Requirements](#requirements)
