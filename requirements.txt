@@ -5,7 +5,7 @@
 matplotlib == 3.1.2
 
 # src/modules/sources.py: 2
-numpy == 1.18.1
+numpy == 1.22.0
 
 # src/modules/sources.py: 1,5
 pandas == 0.23.4
